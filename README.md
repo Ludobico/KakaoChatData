@@ -15,5 +15,5 @@ AI Hub에 있는 일상 대화 데이터셋을 정재하였고, NLP, Chatbot 제
 개인정보가 포함된 대화는 삭제하였고, 몇몇 문자는 변경하였습니다.(키키 -> ㅋㅋ)
 
 
-<img width="433" alt="image" src="https://user-images.githubusercontent.com/89598307/224911500-feb8c7a2-9b69-4e67-ae46-50da1ab6212a.png">
+<img width="856" alt="image" src="https://user-images.githubusercontent.com/89598307/224911500-feb8c7a2-9b69-4e67-ae46-50da1ab6212a.png">
 
