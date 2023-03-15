@@ -1,4 +1,4 @@
-# KakaoChatData
+# KakaoData
 총 73000여개의 질문/답변 데이터셋입니다.
 
 AI Hub에 있는 일상 대화 데이터셋을 정재하였고, NLP, Chatbot 제작에 사용할 수 있습니다.
