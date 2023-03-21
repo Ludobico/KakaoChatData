@@ -12,11 +12,17 @@ def AlpacaDataset():
 
     for index, row in df.iterrows():
         items = {}
-        items['instruction'] = row['req']
-        items['input'] = ""
-        items['output'] = row['res']
+        items['instruction'] = str(row['req'])
+        items['input'] = str("")
+        items['output'] = str(row['res'])
 
         text_list.append(items)
+    
+    # / 치환
+    # for i in range(len(text_list)):
+    #     text_list[i]['instruction'] = text_list[i]['instruction'].replace('/', '\n')
+    #     text_list[i]['output'] = text_list[i]['output'].replace('/', '\n')
+    #     text_list[i]['input'] = text_list[i]['input'].replace('/', '\n')
     
     with open('alpaca_data_CRLF.json', 'w', encoding='UTF-8') as f:
         json.dump(text_list, f,ensure_ascii=False, indent=4)
