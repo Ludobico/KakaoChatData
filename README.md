@@ -29,6 +29,10 @@ Llama 모델기반 스탠퍼드 대학교에서 제작한 Alpaca 데이터셋에
 
 Llama와 크게 다른점은 없습니다.
 
+* alpaca_data_CRLF.json : 윈도우 json 줄 바꿈입니다.
+
+* alpaca_data_LF.json : 리눅스 json 줄 바꿈입니다.
+
 <img width="983" alt="image" src="https://user-images.githubusercontent.com/89598307/226498183-8282e516-e5b3-4a36-8426-d9414664fe0f.png">
 
 현재 transformers의 `load_dataset` 구문이 작동하지 않아 해결중입니다.
