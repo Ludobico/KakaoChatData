@@ -18,7 +18,9 @@ def LlamaActorDataset():
         text_list.append(items)
     
     with open('LllamaJsonData.json', 'w', encoding='UTF-8') as f:
-        json.dump(text_list, f,ensure_ascii=False)
+        json.dump(text_list, f,ensure_ascii=False, indent=4)
+    
+    print("json 파일 변환 완료")
 
 
 
