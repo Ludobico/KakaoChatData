@@ -21,6 +21,14 @@ AI Hub에 있는 일상 대화 데이터셋을 정재하였고, NLP, Chatbot 제
 Llama에 학습시키기 적합한 데이터셋 형식으로 변환한 json 파일입니다.
 
 **req** 와 **res**에 대응되는 키값으로 각각 **user_input** , **completion** 가 할당되었습니다.
-PPO를 고려하지 않은 데이터셋이기에 **score** 는 고려하지 않았습니다.
 
-<img width="2048" height="340" alt="image" src="https://user-images.githubusercontent.com/89598307/225176113-0927ce44-6f01-4eee-86d1-a5a11248d352.png">
+<img width="982" alt="image" src="https://user-images.githubusercontent.com/89598307/226497929-53078097-f1b1-4230-a195-3a03078311b6.png">
+
+# alpaca_data
+Llama 모델기반 스탠퍼드 대학교에서 제작한 Alpaca 데이터셋에 맞춰 변형하였습니다.
+
+Llama와 크게 다른점은 없습니다.
+
+<img width="983" alt="image" src="https://user-images.githubusercontent.com/89598307/226498183-8282e516-e5b3-4a36-8426-d9414664fe0f.png">
+
+현재 transformers의 `load_dataset` 구문이 작동하지 않아 해결중입니다.
