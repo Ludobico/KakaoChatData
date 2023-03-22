@@ -29,6 +29,23 @@ Llama 모델기반 스탠퍼드 대학교에서 제작한 Alpaca 데이터셋에
 
 Llama와 크게 다른점은 없습니다.
 
+* alpaca_data_CRLF.json : 윈도우 json 줄 바꿈입니다.
+
+* alpaca_data_LF.json : 리눅스 json 줄 바꿈입니다.
+
 <img width="983" alt="image" src="https://user-images.githubusercontent.com/89598307/226498183-8282e516-e5b3-4a36-8426-d9414664fe0f.png">
 
-현재 transformers의 `load_dataset` 구문이 작동하지 않아 해결중입니다.
+학습시키기 위한 VRAM 용량입니다.
+
+<img width="580"  alt="llama-7b_vram_batch_128" src="https://user-images.githubusercontent.com/89598307/226541632-807a0c00-8ae8-407d-a871-ea74aa87e8a6.png">
+
+* 배치 사이즈 : 128
+
+<img width="580" alt="llama-7b_vram_batch_256" src="https://user-images.githubusercontent.com/89598307/226541667-57296efe-1625-4c8c-b169-e188365205ab.png">
+
+* 배치 사이즈 : 256
+
+<img width="580" alt="time_of_1_epoch" src="https://user-images.githubusercontent.com/89598307/226541686-14268bd4-227a-4d4f-a808-7b406dfb853b.png">
+
+* 1epoch 시간
+
