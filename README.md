@@ -32,7 +32,7 @@ Llama와 크게 다른점은 없습니다.
 * alpaca_data_CRLF.json : 윈도우 json 줄 바꿈입니다.
 
 * alpaca_data_LF.json : 리눅스 json 줄 바꿈입니다.
-
+<!--
 <img width="983" alt="image" src="https://user-images.githubusercontent.com/89598307/226498183-8282e516-e5b3-4a36-8426-d9414664fe0f.png">
 
 학습시키기 위한 VRAM 용량입니다.
@@ -48,7 +48,7 @@ Llama와 크게 다른점은 없습니다.
 <img width="580" alt="time_of_1_epoch" src="https://user-images.githubusercontent.com/89598307/226541686-14268bd4-227a-4d4f-a808-7b406dfb853b.png">
 
 * 1epoch 시간
-
+-->
 # Alldata
 카카오톡, 페이스북, 인스타그램, 밴드, 네이트온에 있는 채팅데이터를 하나로 모은 데이터셋 파일입니다.
 
